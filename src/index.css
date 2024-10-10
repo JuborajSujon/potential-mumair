@@ -10,3 +10,29 @@
   width: 100%;
   margin: 0 auto !important;
 }
+
+/* Light theme styles (default) */
+html.light {
+  background-color: white;
+  color: black;
+}
+
+/* Dark theme styles */
+html.dark {
+  background-color: black;
+  color: white;
+}
+
+/* Adjust button styling in dark mode */
+html.dark .theme-controller {
+  color: #ff6300; /* Button text color */
+}
+
+/* Ensure icons are visible in both modes */
+html.dark .swap-on {
+  fill: #ff6300; /* Make sure the sun icon is visible in dark mode */
+}
+
+html.light .swap-off {
+  fill: #ff6300; /* Ensure the moon icon is visible in light mode */
+}
