@@ -5,7 +5,7 @@ import errorAnimation from "./error.json";
 import errorAnimation2 from "./errorLottie.json";
 import Lottie from "lottie-react";
 import { IoIosHeart } from "react-icons/io";
-import useScrollToTop from "../../hook/useScrollToTop";
+import useScrollToTop from "./../../hook/useScrollToTop";
 
 const ErrorPage = () => {
   useScrollToTop();
