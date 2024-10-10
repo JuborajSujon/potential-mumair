@@ -9,7 +9,6 @@ import DarkLogo from "../assets/logo-dark.png";
 
 const Footer = () => {
   const { theme } = useGeneralData();
-  console.log(theme);
   return (
     <div className="dark:bg-[#1e1e1e] bg-[#f8f8f8] border-slate-300">
       <footer className="grid grid-cols-1 justify-items-center">

@@ -20,8 +20,3 @@ SectionTitle.propTypes = {
   title: PropsTypes.string,
   desc: PropsTypes.string,
 };
-
-SectionTitle.defaultProps = {
-  title: "",
-  desc: "",
-};
