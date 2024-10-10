@@ -1,6 +1,7 @@
 import React from "react";
 import { Outlet } from "react-router-dom";
 import ThemeController from "../components/ThemeController";
+import Footer from "../components/Footer";
 
 const Main = () => {
   return (
@@ -9,10 +10,11 @@ const Main = () => {
         <h3>Navbar</h3>
         <div className="min-h-[calc(100vh-110px)] overflow-x-hidden">
           <Outlet />
-          <ThemeController />
         </div>
-        <h3>Footer</h3>
+        <Footer />
       </div>
+
+      <ThemeController />
     </div>
   );
 };
