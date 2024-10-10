@@ -94,16 +94,9 @@ const ErrorPage = () => {
               </div>
               <div className="text-center">
                 <p className="mb-0 text-slate-400">
-                  {new Date().getFullYear()}@ Protfolio. Design with{" "}
-                  <IoIosHeart className="inline-block text-red-500" size={20} />{" "}
-                  by{" "}
-                  <Link
-                    to={"https://github.com/JuborajSujon"}
-                    target="_blank"
-                    className="text-reset underline">
-                    JuborajSujon
-                  </Link>
-                  .
+                  @ {new Date().getFullYear()}{" "}
+                  <span className="font-bold text-orange-600">Mumair</span> All
+                  Rights Reserved, Inc.
                 </p>
               </div>
             </div>
