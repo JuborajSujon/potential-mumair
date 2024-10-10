@@ -1,6 +1,7 @@
-import { useEffect, useState } from "react";
+import { useGeneralData } from "../hook/useGeneralData";
 
 const ThemeController = () => {
+  const { theme, toggleTheme } = useGeneralData();
   return (
     <div className="fixed bottom-20 left-10 z-50 w-full flex justify-end">
       <div className="max-w-[1420px] w-full mx-auto pr-4">

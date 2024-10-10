@@ -3,12 +3,22 @@ import { FaLinkedin, FaFacebookF } from "react-icons/fa";
 import { FaXTwitter } from "react-icons/fa6";
 import { Link as ScrollLink } from "react-scroll";
 import { useState } from "react";
+import { useGeneralData } from "../hook/useGeneralData";
 
 const Footer = () => {
+  const { theme } = useGeneralData();
+  console.log(theme);
   return (
     <div className="dark:bg-[#1e1e1e] border-slate-300">
       <footer className="footer footer-center">
-        <div></div>
+        {/* Conditional rendering of the logo */}
+        <div>
+          <img
+            src={theme === "dark" ? "" : ""}
+            alt="Logo"
+            className="w-32 h-auto"
+          />
+        </div>
         <nav className="flex flex-col sm:flex-row gap-4">
           <ScrollLink
             to="home"
