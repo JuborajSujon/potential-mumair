@@ -16,9 +16,9 @@ const Contact = () => {
             <input
               type="text"
               placeholder="Enter Your Email"
-              className="input input-bordered w-3/4 h-16 font-poppins text-2xl"
+              className="input input-bordered w-3/4 h-16 font-poppins text-xl rounded-2xl bg-white focus:outline-none focus:ring-0"
             />
-            <button className="btn w-1/4 h-16 bg-[#FD6F00] text-white font-semibold text-2xl">
+            <button className="btn w-1/4 h-16 bg-[#FD6F00] text-white font-semibold text-xl rounded-2xl">
               Contact Me
             </button>
           </div>
