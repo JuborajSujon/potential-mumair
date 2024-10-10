@@ -1,13 +1,17 @@
 import { StrictMode } from "react";
 import { createRoot } from "react-dom/client";
 import "./index.css";
+import { HelmetProvider } from "react-helmet-async";
+import { ToastContainer } from "react-toastify";
+import "react-toastify/dist/ReactToastify.css";
+import { RouterProvider } from "react-router-dom";
+import { router } from "./Router/Router";
 
 createRoot(document.getElementById("root")).render(
   <StrictMode>
-    <div>
-      <h1 className="text-3xl font-bold underline font-poppins">
-        Hello world!
-      </h1>
-    </div>
+    <HelmetProvider>
+      <RouterProvider router={router} />
+      <ToastContainer />
+    </HelmetProvider>
   </StrictMode>
 );
