@@ -78,6 +78,80 @@ const info = {
       photo: "https://ibb.co.com/RyfypxX",
     },
   ],
+  projects: [
+    {
+      id: 1,
+      category_name: "UI/UX",
+      project_photo: "https://i.ibb.co.com/10bX4hh/uiux1.png",
+      desc: "SmartHome Dashboard",
+    },
+    {
+      id: 2,
+      category_name: "UI/UX",
+      project_photo: "https://i.ibb.co.com/cLRYt3v/uiux2.png",
+      desc: "Fitness Tracker App Redesign",
+    },
+    {
+      id: 3,
+      category_name: "UI/UX",
+      project_photo: "https://i.ibb.co.com/TTPncvf/uiux3.png",
+      desc: "Travel Booking Experience",
+    },
+    {
+      id: 4,
+      category_name: "Web Design",
+      project_photo: "https://i.ibb.co.com/tbsVB4b/web1.png",
+      desc: "AirCalling Landing Page Design",
+    },
+    {
+      id: 5,
+      category_name: "Web Design",
+      project_photo: "https://i.ibb.co.com/2yVffGK/web2.png",
+      desc: "Business Landing Page Design",
+    },
+    {
+      id: 6,
+      category_name: "Web Design",
+      project_photo: "https://i.ibb.co.com/FXPJVLc/web3.png",
+      desc: "Ecom Web Page Design",
+    },
+    {
+      id: 7,
+      category_name: "App Design",
+      project_photo: "https://i.ibb.co.com/sPhQqrT/app1.png",
+      desc: "Budget Buddy",
+    },
+    {
+      id: 8,
+      category_name: "App Design",
+      project_photo: "https://i.ibb.co.com/t2TtLzM/app2.jpg",
+      desc: "Foodie Explorer",
+    },
+    {
+      id: 9,
+      category_name: "App Design",
+      project_photo: "https://i.ibb.co.com/SvCrmzh/app3.jpg",
+      desc: "EventEase",
+    },
+    {
+      id: 10,
+      category_name: "Graphics Design",
+      project_photo: "https://i.ibb.co.com/tQgSdtH/gph1.png",
+      desc: "Brand Identity for EcoGoods",
+    },
+    {
+      id: 11,
+      category_name: "Graphics Design",
+      project_photo: "https://i.ibb.co.com/cgM4CBR/gph2.jpg",
+      desc: "Music Festival Poster Series",
+    },
+    {
+      id: 12,
+      category_name: "Graphics Design",
+      project_photo: "https://i.ibb.co.com/C9F12g6/gph3.webp",
+      desc: "Product Packaging for Luxe Cosmetics",
+    },
+  ],
 };
 
 export default info;

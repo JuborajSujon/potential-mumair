@@ -72,3 +72,14 @@ html.light .swap-off {
   text-decoration: underline;
   text-underline-offset: 5px;
 }
+
+.react-tabs__tab--selected {
+  background-color: #fd6f00 !important;
+  color: white !important;
+  border-radius: 6px !important;
+}
+
+.react-tabs__tab {
+  background-color: white;
+  color: black;
+}
