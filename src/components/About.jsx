@@ -6,7 +6,7 @@ import InputRange from "./InputRange/InputRange";
 const About = () => {
   const { about } = info;
   return (
-    <Element name="about">
+    <Element name="about" id="about">
       <section id="home" className="px-6 py-10 md:py-16">
         <div className="flex flex-col sm:flex-row-reverse gap-8">
           <div className="sm:w-1/2">

@@ -6,7 +6,7 @@ import ServiceCard from "./ServiceCard.jsx";
 const Services = () => {
   const { services } = info;
   return (
-    <Element name="contact" id="contact">
+    <Element name="services" id="services">
       <div className="py-20">
         <div>
           <SectionTitle
