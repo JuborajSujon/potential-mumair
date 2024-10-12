@@ -19,7 +19,7 @@ html.light {
 
 /* Dark theme styles */
 html.dark {
-  background-color: black;
+  background-color: #1e1e1e;
   color: white;
 }
 
@@ -35,4 +35,40 @@ html.dark .swap-on {
 
 html.light .swap-off {
   fill: #ff6300; /* Ensure the moon icon is visible in light mode */
+}
+
+.menu li > *:not(ul, .menu-title, details, .btn):active,
+.menu li > *:not(ul, .menu-title, details, .btn).active,
+.menu li > details > summary:active {
+  background-color: white;
+  color: black;
+  padding: 0.5rem 1rem;
+  text-wrap: none !important;
+}
+
+.menu li > *:not(ul, .menu-title, details, .btn):active,
+.menu li > *:not(ul, .menu-title, details, .btn).active,
+.menu li > details > summary:active {
+  background-color: transparent;
+  color: white;
+  padding: 0.5rem 1rem;
+  text-wrap: none !important;
+}
+
+.menu li > *:not(ul, .menu-title, details, .btn):active,
+.menu li > *:not(ul, .menu-title, details, .btn).active,
+.menu li > details > summary:active {
+  color: black !important;
+  padding: 0.5rem 1rem;
+  text-wrap: none !important;
+}
+
+:where(.menu li):hover {
+  background-color: #ffb78a;
+  border-radius: 6px;
+}
+
+:where(.mainmenu li):hover {
+  text-decoration: underline;
+  text-underline-offset: 5px;
 }
