@@ -1,20 +1,24 @@
 const info = {
   about: [
     {
-      skill: "UX",
-      rate: 90,
+      id: 1,
+      name: "UX",
+      level: 90,
     },
     {
-      skill: "Website Design",
-      rate: 85,
+      id: 2,
+      name: "Website Design",
+      level: 85,
     },
     {
-      skill: "App Design",
-      rate: 95,
+      id: 3,
+      name: "App Design",
+      level: 95,
     },
     {
-      skill: "Graphics Design",
-      rate: 90,
+      id: 4,
+      name: "Graphics Design",
+      level: 90,
     },
   ],
 

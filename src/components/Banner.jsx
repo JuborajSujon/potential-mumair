@@ -21,7 +21,7 @@ const Banner = () => {
                   Designer
                 </h2>
               </div>
-              <p className="text-sm md:text-base lg:text-lg ">
+              <p className="text-base md:text-lg lg:text-xl ">
                 Transforming your ideas into stunning digital experiences. From
                 intuitive websites to engaging apps, I design with creativity
                 and precision. Let’s collaborate to build user-friendly
