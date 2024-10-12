@@ -83,7 +83,7 @@ export default function Navbar() {
         scrollPosition > 300
           ? "bg-white dark:bg-[#1e1e1e]"
           : "bg-white/50 dark:bg-[#1e1e1e]/50"
-      } dark:text-slate-300 px-4`}>
+      } dark:text-slate-300 px-5`}>
       <div className="w-full lg:max-w-fit flex justify-between lg:block">
         <div className="dropdown lg:hidden">
           <div
@@ -110,7 +110,7 @@ export default function Navbar() {
             {navList}
           </ul>
         </div>
-        <div>
+        <div className="mr-4">
           <ScrollLink to="home" smooth={true} duration={500}>
             <img
               className="w-36 sm:w-44 md:w-52 xl:max-w-72 xl:max-h-20 h-auto"
@@ -121,11 +121,11 @@ export default function Navbar() {
         </div>
       </div>
 
-      <div className="hidden lg:flex flex-row lg:gap-5 xl:gap-8 2xl:gap-10">
-        <ul className="flex flex-row lg:text-base xl:text-lg lg:gap-5 xl:gap-8 2xl:gap-16 mainmenu">
+      <div className="hidden lg:flex flex-row lg:gap-5 xl:gap-10 pr-4">
+        <ul className="flex flex-row lg:text-base xl:text-xl lg:gap-5 xl:gap-8 2xl:gap-12 mainmenu">
           {navList}
         </ul>
-        <button className="py-2 px-4 text-nowrap bg-[#FD6F00] text-white border-none lg:text-base xl:text-lg rounded-lg hover:bg-orange-400">
+        <button className="py-2 px-4 text-nowrap bg-[#FD6F00] text-white border-none lg:text-base xl:text-lg rounded-lg hover:bg-orange-400 mr-7">
           Download CV
         </button>
       </div>

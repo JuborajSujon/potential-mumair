@@ -1,10 +1,11 @@
+import Banner from "../../components/Banner";
 import Contact from "../../components/Contact";
 import Services from "../../components/Services";
 
 const Home = () => {
   return (
     <div>
-      Home Page
+      <Banner />
       <Services />
       <Contact />
     </div>
