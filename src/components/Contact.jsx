@@ -12,7 +12,7 @@ const Contact = () => {
           />
         </div>
         <div className="w-full mt-10 md:mt-24">
-          <div className="w-3/4 mx-auto flex justify-between gap-3 md:gap-7">
+          <div className="w-3/4 mx-auto flex justify-center gap-3 md:gap-5">
             <input
               type="text"
               placeholder="Enter Your Email"
