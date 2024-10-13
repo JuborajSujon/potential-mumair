@@ -5,7 +5,9 @@ import { FaFacebook, FaInstagram } from "react-icons/fa6";
 const Banner = () => {
   return (
     <Element name="home">
-      <section id="home" className="px-6 py-10 md:py-16">
+      <section
+        id="home"
+        className="px-6 pt-20 md:pt-28 lg:pt-36 pb-10 md:pb-16">
         <div className="flex flex-col sm:flex-row items-center gap-8 md:gap-16 xl:gap-28">
           <div className="sm:w-1/2 md:w-3/5 xl:pr-16">
             <div className="">
