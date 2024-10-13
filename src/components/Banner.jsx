@@ -30,7 +30,7 @@ const Banner = () => {
                 solutions that make a lasting impact!
               </p>
 
-              <button className="bg-[#FD6F00] text-white border-none text-lg mt-7 px-8 xl:px-12 py-1 lg:py-2 rounded">
+              <button className="bg-[#FD6F00] text-white border-none text-lg mt-7 px-8 lg:px-12  py-1 lg:py-2.5 rounded">
                 Hire Me
               </button>
             </div>

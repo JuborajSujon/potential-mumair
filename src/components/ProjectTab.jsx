@@ -25,33 +25,33 @@ const ProjectTab = () => {
   return (
     <div className="mt-10 px-4">
       <Tabs selectedIndex={tabIndex} onSelect={(index) => setTabIndex(index)}>
-        <TabList className="text-lg font-semibold flex flex-wrap justify-center items-center gap-4 pt-6 pb-10">
+        <TabList className="text-lg font-semibold flex flex-wrap justify-center items-center gap-4 pt-6 pb-10 md:pb-20">
           <Tab
-            className={`btn text-sm md:text-base rounded-md focus-visible:outline-none ${
+            className={`btn font-normal text-sm md:text-lg xl:text-xl rounded-md focus-visible:outline-none ${
               tabIndex === 0 ? "bg-[#FD6F00] text-white" : "bg-white text-black"
             } border border-gray-300`}>
             All
           </Tab>
           <Tab
-            className={`btn rounded-md focus-visible:outline-none ${
+            className={`btn font-normal text-sm md:text-lg xl:text-xl rounded-md focus-visible:outline-none ${
               tabIndex === 1 ? "bg-[#FD6F00] text-white" : "bg-white text-black"
             } border border-gray-300`}>
             UI/UX
           </Tab>
           <Tab
-            className={`btn rounded-md focus-visible:outline-none ${
+            className={`btn font-normal text-sm md:text-lg xl:text-xl rounded-md focus-visible:outline-none ${
               tabIndex === 2 ? "bg-[#FD6F00] text-white" : "bg-white text-black"
             } border border-gray-300`}>
             Web Design
           </Tab>
           <Tab
-            className={`btn rounded-md focus-visible:outline-none ${
+            className={`btn font-normal text-sm md:text-lg xl:text-xl rounded-md focus-visible:outline-none ${
               tabIndex === 3 ? "bg-[#FD6F00] text-white" : "bg-white text-black"
             } border border-gray-300`}>
             App Design
           </Tab>
           <Tab
-            className={`btn rounded-md focus-visible:outline-none ${
+            className={`btn font-normal text-sm md:text-lg xl:text-xl rounded-md focus-visible:outline-none ${
               tabIndex === 4 ? "bg-[#FD6F00] text-white" : "bg-white text-black"
             } border border-gray-300`}>
             Graphics Design
