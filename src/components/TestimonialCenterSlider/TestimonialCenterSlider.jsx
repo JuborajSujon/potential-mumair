@@ -32,10 +32,10 @@ export default function TestimonialCenterSlider() {
               className={`testimonial-slide ${
                 index === activeIndex ? "active-slide" : "inactive-slide"
               } w-full h-full rounded-lg`}>
-              <div className="bg-[#F8F8F8] h-full rounded-lg p-8 lg:p-16">
+              <div className="bg-[#F8F8F8] h-full flex flex-col lg:flex-row gap-4 justify-center items-center rounded-lg p-8 lg:p-16">
                 <div className="overflow-hidden h-full shrink-0">
                   <img
-                    className="rounded-full w-[130px] h-[130px] md:w-[200px] md:h-[200px] object-cover"
+                    className="rounded-full w-[130px] h-[130px] object-cover"
                     src={testmonial.photo}
                     alt={testmonial.name}
                   />
@@ -50,7 +50,7 @@ export default function TestimonialCenterSlider() {
                       &rdquo;
                     </span>
                   </p>
-                  <h3 className="text-lg md:text-xl font-semibold mt-4 dark:text-black">
+                  <h3 className="text-lg md:text-xl font-semibold -mt-3 dark:text-black">
                     {testmonial.name}
                   </h3>
                   <p className="text-base md:text-lg dark:text-black">
