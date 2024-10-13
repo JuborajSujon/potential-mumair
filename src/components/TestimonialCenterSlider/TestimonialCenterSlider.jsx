@@ -32,15 +32,15 @@ export default function TestimonialCenterSlider() {
               className={`testimonial-slide ${
                 index === activeIndex ? "active-slide" : "inactive-slide"
               } w-full h-full rounded-lg`}>
-              <div className="flex flex-col lg:flex-row justify-center items-stretch lg:justify-between gap-6 bg-[#F8F8F8] rounded-lg p-8 lg:p-16 min-h-[400px] ">
-                <div className="overflow-hidden shrink-0">
+              <div className="bg-[#F8F8F8] h-full rounded-lg p-8 lg:p-16">
+                <div className="overflow-hidden h-full shrink-0">
                   <img
                     className="rounded-full w-[130px] h-[130px] md:w-[200px] md:h-[200px] object-cover"
                     src={testmonial.photo}
                     alt={testmonial.name}
                   />
                 </div>
-                <div>
+                <div className="flex flex-col h-full justify-between">
                   <p className="text-lg md:text-xl dark:text-black">
                     <span className="text-[#FD6F00] text-7xl align-base">
                       &ldquo;

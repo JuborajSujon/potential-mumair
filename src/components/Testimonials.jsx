@@ -5,7 +5,7 @@ import TestimonialCenterSlider from "./TestimonialCenterSlider/TestimonialCenter
 
 const Testimonials = () => {
   return (
-    <Element name="testimonials" id="testimonials">
+    <Element name="Testimonials" id="Testimonials">
       <div className="py-16 px-6 md:py-20">
         <SectionTitle
           title="Testimonials"

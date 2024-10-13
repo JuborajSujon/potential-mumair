@@ -27,7 +27,7 @@ const ProjectTab = () => {
       <Tabs selectedIndex={tabIndex} onSelect={(index) => setTabIndex(index)}>
         <TabList className="text-lg font-semibold flex flex-wrap justify-center items-center gap-4 pt-6 pb-10">
           <Tab
-            className={`btn rounded-md focus-visible:outline-none ${
+            className={`btn text-sm md:text-base rounded-md focus-visible:outline-none ${
               tabIndex === 0 ? "bg-[#FD6F00] text-white" : "bg-white text-black"
             } border border-gray-300`}>
             All

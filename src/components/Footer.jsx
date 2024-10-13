@@ -12,16 +12,16 @@ const Footer = () => {
   return (
     <div className="dark:bg-[#1e1e1e] bg-[#f8f8f8] border-slate-300">
       <footer className="grid grid-cols-1 justify-items-center">
-        <div className="flex flex-col justify-center items-center pt-28 pb-16">
+        <div className="flex flex-col justify-center items-center pt-10 md:pt-28 pb-16">
           {/* Conditional rendering of the logo */}
-          <div className="mb-20">
+          <div className="mb-16 md:mb-20">
             <img
               src={theme === "dark" ? DarkLogo : LightLogo}
               alt="Logo"
-              className="w-72 h-auto"
+              className="w-44 md:w-72 h-auto"
             />
           </div>
-          <nav className="flex flex-col sm:flex-row gap-11 text-xl mb-24 tracking-wide">
+          <nav className="flex flex-row flex-wrap justify-center gap-5 md:gap-11 text-lg md:text-xl mb-16 md:mb-24 tracking-wide px-6">
             <ScrollLink
               to="home"
               offset={-150}
@@ -74,22 +74,22 @@ const Footer = () => {
           <nav>
             <div className="grid grid-flow-col gap-9">
               <a href="#" target="_blank">
-                <FaFacebook className="text-4xl hover:text-orange-600" />
+                <FaFacebook className="text-2xl md:text-4xl hover:text-orange-600" />
               </a>
               <a href="#" target="_blank">
-                <FaTwitter className="text-4xl hover:text-orange-600" />
+                <FaTwitter className="text-2xl md:text-4xl hover:text-orange-600" />
               </a>
               <a href="#" target="_blank">
-                <FaInstagram className="text-4xl hover:text-orange-600" />
+                <FaInstagram className="text-2xl md:text-4xl hover:text-orange-600" />
               </a>
               <a href="#" target="_blank">
-                <FaLinkedin className="text-4xl hover:text-orange-600" />
+                <FaLinkedin className="text-2xl md:text-4xl hover:text-orange-600" />
               </a>
             </div>
           </nav>
         </div>
-        <aside className="h-20 bg-[#545454] w-full text-white dark:bg-[#121212] dark:text-white flex justify-center items-center">
-          <p className="font-light text-xl leading-8 tracking-wider">
+        <aside className="h-20 bg-[#545454] w-full text-white dark:bg-[#121212] dark:text-white flex justify-center items-center px-4">
+          <p className="font-light text-base md:text-xl leading-8 tracking-wider">
             © {new Date().getFullYear()}{" "}
             <span className="font-bold text-orange-600">Mumair</span> All rights
             reserved , Inc.

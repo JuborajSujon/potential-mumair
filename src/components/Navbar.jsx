@@ -79,7 +79,7 @@ export default function Navbar() {
   );
   return (
     <div
-      className={`navbar justify-between max-w-[1420px] static top-0 mt-4 pt-6 z-20 ${
+      className={`navbar justify-between max-w-[1420px] fixed z-20 ${
         scrollPosition > 300
           ? "bg-white dark:bg-[#1e1e1e]"
           : "bg-white/50 dark:bg-[#1e1e1e]/50"
